@@ -8,14 +8,14 @@ public class Lutador {
       l[4] = new OLutador("Ufocobol","Brasil",37,1.70,119.3,5,4,3);
       l[5] = new OLutador("Nerdaard","Brasil",30,1.81,105.7,12,2,4);
 
-      /*OLutador l1 = new OLutador("Pretty Boy", "França", 31, 1.75, 68.9,11, 2, 1);
+      /* OLutador l1 = new OLutador("Pretty Boy", "França", 31, 1.75, 68.9,11, 2, 1);
     OLutador l2 = new OLutador("Putscript", "Brasil",29, 1.68,57.8,14,2,3);
     OLutador l3 = new OLutador("Snapshadow", "EUA",35,1.65,80.9,12,2,1);
     OLutador l4 = new OLutador("Dead Code","Australia",28,1.93,81.6,13,0,2);
     OLutador l5 = new OLutador("Ufocobol","Brasil",37,1.70,119.3,5,4,3);
     OLutador l6 = new OLutador("Nerdaard","Brasil",30,1.81,105.7,12,2,4); */
 
-        l[0].apresentar();
+     /*   l[0].apresentar();
         l[1].status();
         l[2].ganharLuta();
         l[3].perderLuta();
@@ -24,7 +24,11 @@ public class Lutador {
         l[2].status();
         l[3].status();
         l[4].status();
-        l[5].status();
+        l[5].status();*/
+
+        Luta UFC01 = new Luta();
+        UFC01.marcarLuta(l[4], l[5]);
+        UFC01.lutar();
 
     }
 }
